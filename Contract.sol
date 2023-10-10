@@ -624,9 +624,9 @@ pragma solidity ^0.8.20;
 
 
 // Define your custom token contract by inheriting from ERC20
-contract SecurePEPE is ERC20 {
-    constructor() ERC20("SecurePEPE", "SPEPE") {
+contract SecurePepe is ERC20 {
+    constructor() ERC20("SecurePepe", "SPEPE") {
         // Mint an initial supply of tokens and assign them to the contract creator
-        _mint(msg.sender, 462000000000000 * 10 ** uint(decimals()));
+        _mint(msg.sender, 420690000000000 * 10 ** uint(decimals()));
     }
 }
